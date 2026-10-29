@@ -1,7 +1,10 @@
 [project]
-name = "daigaku-setuzoku"
+name = "simple-webcam"
 version = "0.1.0"
-description = "Add your description here"
+description = "Webcam streaming server using Flask and OpenCV"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "flask>=3.0.0",
+    "opencv-python>=4.8.0",
+]
